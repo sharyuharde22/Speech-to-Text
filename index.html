@@ -1,0 +1,19 @@
+#Simple HTML file for UI can be enhanced using CSS and javascript
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speech-to-Text Notes App</title>
+</head>
+<body>
+    <h1>Speech-to-Text Notes</h1>
+
+    <button onclick="startRecording()">🎤 Start Recording</button>
+    <p id="output"></p>
+
+    <input type="text" id="search" placeholder="Search notes..." onkeyup="searchNotes()">
+
+    <div id="notes"></div>
+
+    <script src="/static/main.js"></script>
+</body>
+</html>
