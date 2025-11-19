@@ -30,3 +30,17 @@ This app allows users to record voice, convert speech into text, save notes auto
 - Whisper (OpenAI)  
 - Torch  
 - ffmpeg (system dependency)
+
+---
+
+## 📁 Project Structure
+
+Speech_Recognition/
+│
+├── app.py
+├── notes/
+│ └── notes.json
+├── static/
+│ └── main.js
+└── templates/
+└── index.html
