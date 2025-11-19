@@ -1,0 +1,7 @@
+#This code is required by python and whisper to store the required speech in text format
+[
+    {
+        "text": "Music",
+        "time": "2025-11-19 15:33:30.283147"
+    }
+]
